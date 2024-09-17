@@ -82,7 +82,13 @@
         >
             <v-list>
                 <v-list-item
-                    @click="cat('+')"
+                    to="/"
+                    color="success"
+                    title="HOME"
+                    value="home"
+                ></v-list-item>
+                <v-list-item
+                    @click="cat('laptops')"
                     to="/cat"
                     color="orange"
                     title="laptops"

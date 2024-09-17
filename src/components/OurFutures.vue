@@ -8,7 +8,10 @@
         <div class="card2"><img src="../assets/iphones.webp" alt="" /></div>
         <div class="card2"><img src="../assets/laptops.webp" alt="" /></div>
     </div>
-    <div class="mt-16" style="display: flex; justify-content: space-between">
+    <div
+        class="mt-16"
+        style="width: 96%; display: flex; justify-content: space-between"
+    >
         <h2 class="text-orange text-h4">Flash Deals</h2>
         <a style="cursor: pointer; margin-right: 30px"> See All</a>
     </div>

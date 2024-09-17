@@ -4,7 +4,7 @@
             <v-col cols="12" md="5" lg="5">
                 <img style="width: 100%" :src="prod.thumbnail" alt="" />
                 <v-spacer></v-spacer>
-                <div style="display: flex; width: 100%">
+                <div class="imgs" style="display: flex; width: 100%">
                     <img
                         v-for="img in prod.images"
                         :src="img"
@@ -167,7 +167,21 @@
 
 <style scoped>
 .deteils {
+    max-width: 97%;
     padding-left: 30px;
+    margin: 0;
+}
+@media (max-width: 600px) {
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgs img {
+        width: 50%;
+        height: 50%;
+    }
 }
 </style>
 

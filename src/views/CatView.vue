@@ -7,7 +7,7 @@
                     <img
                         :src="item.thumbnail"
                         alt=""
-                        style="hieght: 200px; border-radius: 1px solid black"
+                        style="height: 200px; border-radius: 1px solid black"
                     />
                     <v-card-text style="translate: -10px 0">
                         {{ "(" + item.title + ")" }}
